@@ -9,7 +9,7 @@
 ## 👥 Integrantes da Equipe
 
 | Nome | Função principal | GitHub
-|------|-----------------|
+
 | [Nicolas Damasceno] | [Função Principal] | [https://github.com/NicolasDamasceno]
 | [Guilherme Alves] | [Função Principal] | [https://github.com/Guilherme-sta]
 | [Marcos Gabriel] | [Função Principal] | [https://github.com/marcosgabrielms]
