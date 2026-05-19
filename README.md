@@ -100,7 +100,7 @@ portfolio/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/[usuario]/[repositorio].git
+   git clone https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git
    ```
 2. Abra o arquivo `index.html` no navegador.
 
