@@ -8,88 +8,84 @@
 
 ## 👥 Integrantes da Equipe
 
-| Nome | Função principal | GitHub
-
-> [Nicolas Damasceno] | [Função Principal] | [https://github.com/NicolasDamasceno]
-> [Guilherme Alves] | [Função Principal] | [https://github.com/Guilherme-sta]
-> [Marcos Gabriel] | [Função Principal] | [https://github.com/marcosgabrielms]
+| Nome | Função principal | GitHub |
+| :--- | :--- | :--- |
+| **Guilherme Alves** | Estruturação e Engenharia Semântica HTML5 | [https://github.com/Guilherme-sta](https://github.com/Guilherme-sta) |
+| **Marcos Gabriel** | Arquitetura CSS e Design Responsivo | [https://github.com/marcosgabrielms](https://github.com/marcosgabrielms) |
+| **Nicolas Damasceno** | Versionamento, Organização Git e Revisão Final | [https://github.com/NicolasDamasceno](https://github.com/NicolasDamasceno) |
 
 ---
 
 ## 🖥️ Tema Escolhido
 
-> *A definir*
+> **DESENVOLVEDORES FRONT-END** > Identidade visual *dark mode* tecnológica e minimalista, utilizando os conceitos do PixelForge Studio.
 
+---
 
 ## 📋 Descrição do Projeto
 
-Portfólio pessoal responsivo simulando a página profissional de um estudante/desenvolvedor. O site apresenta informações pessoais, habilidades, projetos, experiências e formas de contato.
+Portfólio pessoal coletivo e responsivo simulando a página profissional de uma equipe de desenvolvedores front-end. O site foi desenvolvido por alunos do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas coletivas organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
 
-Desenvolvido com **HTML** e **CSS** puros, sem uso de frameworks como Bootstrap ou Tailwind.
+Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer framework ou biblioteca externa como Bootstrap ou Tailwind.
 
 ---
 
 ## 📁 Estrutura de Arquivos
-
-```
-portfolio/
+```portfolio/
 │
 ├── index.html
 ├── css/
 │   └── style.css
 ├── img/
-│   ├── perfil.jpg
-│   ├── projeto1.jpg
-│   ├── projeto2.jpg
-│   └── projeto3.jpg
+│   
 └── README.md
 ```
-
 ---
 
 ## ✅ Funcionalidades - Guia
 
-- [x] Header com navegação interna
-- [x] Seção sobre (informações pessoais)
-- [x] Seção de habilidades
-- [x] Seção de projetos com cards
-- [x] Seção de experiências
-- [x] Formulário de contato
-- [x] Footer com links sociais
-- [x] Layout responsivo com media queries
-- [ ] [Adicionar outras funcionalidades aqui]
+- [x] Header fixo com efeito de transparência e navegação por âncoras
+- [x] Seção Hero com slogan marcante e animação fluida de transição
+- [x] Seção Equipe apresentando os 3 integrantes em cards modernos
+- [x] Seção Sobre contendo a missão acadêmica institucional do grupo de ADS
+- [x] Seção de habilidades coletivas dispostas em grid de cards perfeitamente quadrados
+- [x] Seção de projetos estruturada em blocos modulares individuais por integrante
+- [x] Formulário de contato estilizado com efeitos dinâmicos de *focus*
+- [x] Footer completo com canais de comunicação corporativos
+- [x] Layout responsivo com media queries impedindo quebras lógicas
+- [x] Botão dinâmico de scroll suave para retorno ao topo (*Back to top*)
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- 
+- HTML5 (Estruturação Semântica Avançada)
+- CSS3 (Flexbox, Grid Layout e Media Queries Adaptativas)
+
 ---
 
 ## ⚡ Principais Desafios
 
-> ⚠️ *Preencher durante desenvolvimento*
-
-- [ ] [Desafio 1 — A realizar
+- **Responsividade Sem Frameworks:** Garantir o empilhamento de múltiplos cards e seções lógicas sem recorrer a Bootstrap ou Tailwind, baseando-se em quebras limpas de Media Queries.
+- **Grids Quadrados Estáveis:** Preservar a proporção estritamente quadrada (`aspect-ratio: 1 / 1`) da seção de habilidades mantendo ícones e textos centralizados perfeitamente em telas móveis.
+- **Trabalho Colaborativo via Git:** Organizar branches e submissões paralelas sem gerar conflitos na folha unificada de CSS e no índice HTML.
 
 ---
 
 ## 👨‍💻 Divisão de Tarefas
 
-- **[Nicolas Damasceno]:** ...
-- **[Guilherme Alves]:** ...
-- **[Marcos Gabriel]:** ...
+- **Guilherme Alves:** Concepção da marcação semântica HTML5 inicial, tabelas lógicas, links de ancoragem e formulários de contato.
+- **Marcos Gabriel:** Desenvolvimento de toda a identidade visual CSS3, animações, efeitos de brilho no hover (*glow*), grids quadrados e regras de responsividade mobile.
+- **Nicolas Damasceno:** Governança do repositório Git, commits de controle, preenchimento documental do README.md e auditoria contra frameworks de terceiros.
 
 ---
 
 ## 🔗 Links
 
 | Recurso | Link |
-|---------|------|
-| 🌐 GitHub Pages | [a definir] |
-| 🎬 Vídeo de Apresentação | [a definir] |
+| :--- | :--- |
+| 🌐 GitHub Pages | *[a definir]* |
+| 🎬 Vídeo de Apresentação | *[a definir]* |
 
 ---
 
@@ -97,11 +93,4 @@ portfolio/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
-
-
----
-
-<p align="center">Feito com 💻 por alunos do IFPI — ADS</p>
+   git clone [https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git](https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git)
