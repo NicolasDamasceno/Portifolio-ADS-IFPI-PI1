@@ -25,7 +25,7 @@
 
 Portfólio pessoal responsivo simulando a página profissional de um estudante/desenvolvedor. O site apresenta informações pessoais, habilidades, projetos, experiências e formas de contato.
 
-Desenvolvido com **HTML**, **CSS** e **JavaScript** puros, sem uso de frameworks como Bootstrap ou Tailwind.
+Desenvolvido com **HTML** e **CSS** puros, sem uso de frameworks como Bootstrap ou Tailwind.
 
 ---
 
@@ -37,8 +37,6 @@ portfolio/
 ├── index.html
 ├── css/
 │   └── style.css
-├── js/
-│   └── script.js
 ├── img/
 │   ├── perfil.jpg
 │   ├── projeto1.jpg
@@ -67,8 +65,7 @@ portfolio/
 
 - HTML5
 - CSS3
-- JavaScript
-
+- 
 ---
 
 ## ⚡ Principais Desafios
