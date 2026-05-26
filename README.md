@@ -3,6 +3,7 @@
 > Trabalho desenvolvido para a disciplina **Programação para a Internet I**  
 > Instituto Federal de Educação, Ciência e Tecnologia do Piauí — IFPI  
 > Professor: Ely Miranda
+> Grupo: Guilherme Alves, Marcos Gabriel e Nicolas Damasceno
 
 ---
 
@@ -59,8 +60,8 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5 (Estruturação Semântica Avançada)
-- CSS3 (Flexbox, Grid Layout e Media Queries Adaptativas)
+- HTML5 
+- CSS3 
 
 ---
 
@@ -74,9 +75,9 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 
 ## 👨‍💻 Divisão de Tarefas
 
-- **Guilherme Alves:** Concepção da marcação semântica HTML5 inicial, tabelas lógicas, links de ancoragem e formulários de contato.
+- **Guilherme Alves e Nicolas Damasceno:** Concepção da marcação semântica HTML5 inicial, tabelas lógicas, links de ancoragem e formulários de contato.
 - **Marcos Gabriel:** Desenvolvimento de toda a identidade visual CSS3, animações, efeitos de brilho no hover (*glow*), grids quadrados e regras de responsividade mobile.
-- **Nicolas Damasceno:** Governança do repositório Git, commits de controle, preenchimento documental do README.md e auditoria contra frameworks de terceiros.
+- **Guilherme Alves, Marcos Gabriel e Nicolas Damasceno:** Governança do repositório Git, commits de controle, preenchimento documental do README.md e auditoria contra frameworks de terceiros.
 
 ---
 
