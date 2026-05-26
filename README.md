@@ -93,4 +93,4 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git](https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git)
+   git clone https://github.com/NicolasDamasceno/Portifolio-ADS-IFPI-PI1.git
