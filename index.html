@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PixelForge | Front-End Engineering Team</title>
+    <title>Portifólio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,14 +12,15 @@
 
     <header class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">Pixel<span>Forge</span></a>
+            <a href="#" class="logo">Portifólio<span>Pessoal</span></a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#equipe">Equipe</a></li>
-                    <li><a href="#sobre">Sobre a Equipe</a></li>
+                    <li><a href="#sobre-mim">Card</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -30,8 +31,30 @@
         <section class="hero-section">
             <div class="hero-container">
                 <div class="hero-content">
-                    <h1>PixelForge Studio</h1>
-                    <p class="slogan">Transformando ideias em interfaces modernas, intuitivas e totalmente responsivas.</p>
+                    <h1>Desenvolvedor FullStack</h1>
+
+                    <div class="code-container">
+                        <div class="code-bar">
+                            <div class="code-dots">
+                                <span class="red-dot"></span>
+                                <span class="orange-dot"></span>
+                                <span class="green-dot"></span>
+                            </div>
+                        </div>
+   
+<pre class="code-body">
+01 class Desenvolvedor:
+02     def __init__(self, nome, idade, cafeina):
+03          self.nome = nome
+04          self.idade = idade
+05          self.cafeina = cafeina
+06
+07 novoDesenvolvedor = Desenvolvedor("Nicolas Damasceno", 22, True)
+08</pre>  
+                    
+                    </div>
+                    
+                    <p class="slogan">print("Conhecendo um pouco mais de um desenvolvedor júnior na internet!")</p>
                     <div class="hero-buttons">
                         <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
                         <a href="#contato" class="btn btn-secondary">Contato</a>
@@ -40,78 +63,62 @@
             </div>
         </section>
 
-        <section id="equipe" class="section-padding">
+        <section id="sobre-mim" class="section-padding">
             <div class="container">
-                <h2 class="section-title">Nossa Equipe</h2>
-                <div class="team-grid">
-                    
-                    <article class="card-member">
+                <h2 class="section-title">Bem-vindo ao meu portifólio</h2>
+
+                    <article class="card">
                         <div class="avatar-box">
-                            <img src="img/guilherme.jpg" alt="Foto de Guilherme Alves" class="responsive-img">
+                            <img src="img/teste.jpg" alt="Foto de Nicolas Damasceno" class="responsive-img">
                         </div>
-                        <div class="member-info">
-                            <h3>Guilherme Alves</h3>
-                            <span class="role">Front-End Engineer / HTML Specialist</span>
-                            <p class="bio">Responsável pela arquitetura estrutural e semântica de layouts. Focado em acessibilidade, otimização de SEO e estruturação de dados limpos.</p>
-                            <p class="fav-tech"><strong>Techs Favoritas:</strong> HTML5, JavaScript, Git</p>
-                            <div class="member-socials">
+                        <div class="info">
+                            <h3>Nicolas Antônio Damasceno Sales Campos</h3>
+                            <span class="role">Desenvolvedor FullStack</span>
+                            <p class="bio">Futuro desenvolvedor fullstack e estudante de Análise e Desenvolvimento de Sistemas do Instituto Federal do Piauí - IFPI e em busca do bom desenvolvimento de carreira e pessoal.</p>
+                            <p class="fav-tech"><strong>Techs Favoritas:</strong> Python, JavaScript, SQL</p>
+                            <div class="socials">
                                 <a href="https://github.com" target="_blank">GitHub</a>
                                 <a href="https://linkedin.com" target="_blank">LinkedIn</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="card-member">
-                        <div class="avatar-box">
-                            <img src="img/marcos.jpg" alt="Foto de Marcos Gabriel" class="responsive-img">
-                        </div>
-                        <div class="member-info">
-                            <h3>Marcos Gabriel Mendes Silva</h3>
-                            <span class="role">UI Architect / CSS & Responsiveness Specialist</span>
-                            <p class="bio">Especialista em estilização avançada, animações e layouts fluidos em CSS puro. Focado em transformar fios estruturais em interfaces visualmente deslumbrantes.</p>
-                            <p class="fav-tech"><strong>Techs Favoritas:</strong> CSS3, TypeScript, Python</p>
-                            <div class="member-socials">
-                                <a href="https://github.com" target="_blank">GitHub</a>
-                                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="card-member">
-                        <div class="avatar-box">
-                            <img src="img/nicolas.jpg" alt="Foto de Nicolas Damasceno" class="responsive-img">
-                        </div>
-                        <div class="member-info">
-                            <h3>Nicolas Damasceno</h3>
-                            <span class="role">Data Integrator / Version Control Quality</span>
-                            <p class="bio">Especialista em controle de versionamento, integração de APIs client-side e manipulação lógica de bancos de dados relacionais e fluxos de scripts em C/C++.</p>
-                            <p class="fav-tech"><strong>Techs Favoritas:</strong> SQL, JavaScript, C/C++</p>
-                            <div class="member-socials">
-                                <a href="https://github.com" target="_blank">GitHub</a>
-                                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                            </div>
-                        </div>
-                    </article>
-
-                </div>
+                
             </div>
         </section>
 
         <section id="sobre" class="section-padding bg-alt">
             <div class="container">
-                <h2 class="section-title">Sobre a PixelForge</h2>
+                <h2 class="section-title">Sobre mim</h2>
                 <div class="about-wrapper">
                     <div class="about-text">
-                        <p>Somos uma equipe de desenvolvedores front-end composta por alunos do <strong>Instituto Federal do Piauí (IFPI)</strong>, cursando o <strong>3º período de Análise e Desenvolvimento de Sistemas</strong>. Unimos nossos conhecimentos acadêmicos e práticos para criar interfaces modernas, velozes e focadas na experiência do usuário.</p>
-                        <p>Através do trabalho colaborativo, dividimos as etapas de desenvolvimento de forma cirúrgica: da estruturação semântica à estilização avançada, garantindo códigos puros, responsivos e de alto desempenho, totalmente livres de frameworks pesados[cite: 9, 34].</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi perferendis ipsum, aliquam tempora nesciunt aut autem provident dolor eius expedita assumenda molestias sit minus, voluptas, explicabo sapiente natus. Numquam.</p>
                     </div>
                 </div>
+
+                <dl class="sobre-stats">
+                    <div class="stats-item">
+                        <dt class="stats-term">2+</dt>
+                        <dd class="stats-description">Tempo de Experiência</dd>
+                    </div>
+                    
+                    <div class="stats-item">
+                        <dt class="stats-term">2+</dt>
+                        <dd class="stats-description">Projetos Finalizados</dd>
+                    </div>
+                
+                    <div class="stats-item">
+                        <dt class="stats-term">5+</dt>
+                        <dd class="stats-description">Certificados</dd>
+                    </div>
+                </dl>
             </div>
+                
         </section>
 
         <section id="habilidades" class="section-padding">
             <div class="container">
-                <h2 class="section-title">Habilidades Coletivas</h2>
+                <h2 class="section-title">Habilidades</h2>
                 <div class="skills-square-grid">
                     
                     <div class="skill-square-card">
@@ -226,7 +233,7 @@
 
         <section id="contato" class="section-padding">
             <div class="container">
-                <h2 class="section-title">Entre em contato com a Equipe</h2>
+                <h2 class="section-title">Dúvidas? Mande um E-mail por aqui!</h2>
                 <div class="contact-box">
                     <form action="#" method="POST" class="contact-form">
                         <div class="input-group">
@@ -255,13 +262,13 @@
     <footer>
         <div class="footer-container">
             <div class="footer-left">
-                <p>&copy; 2026 PixelForge. Todos os direitos reservados.</p>
+                <p>&copy; 2026 Nicolas Damasceno. Todos os direitos reservados.</p>
                 <span class="footer-tagline">Projetando a camada visível da inovação.</span>
             </div>
             <ul class="footer-links">
-                <li><a href="https://github.com" target="_blank">GitHub Equipe</a></li>
-                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-                <li><a href="mailto:pixel@forge.com">E-mail</a></li>
+                <li><a href="https://github.com/NicolasDamasceno" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/nicolas-damasceno-045108342/" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:nicolasbackprogrammer@gmail.com">E-mail</a></li>
             </ul>
         </div>
     </footer>
