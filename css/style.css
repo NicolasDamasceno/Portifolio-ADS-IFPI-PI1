@@ -438,66 +438,118 @@ body {
 /* ==================================================================
    6) HABILIDADES (CARDS QUADRADOS EM GRID LADO A LADO)
    ================================================================== */
-.skills-square-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+/* ==================================================================
+   6) HABILIDADES (CARROUSSEL DUPLO INFINITO CONTINUO)
+   ================================================================== */
+.container-carrossel {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden; /* Esconde elementos fora do ecrã lateralmente */
+    padding: 20px 0;
 }
 
-.skill-square-card {
-    background-color: #1e293b;
-    border-radius: 12px;
-    border: 1px solid rgba(148, 163, 184, 0.05);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.carousel-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Força os cards a manterem dimensões fixas e quadradas no slider */
+.carousel-container .skill-square-card {
+    flex: 0 0 200px;
+    height: 200px;
+    margin-right: 25px;
+    background-color: #1e293b; /* */
+    border-radius: 12px; /* */
+    border: 1px solid rgba(148, 163, 184, 0.05); /* */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1 / 1; /* Força o card a se manter estritamente quadrado */
-    padding: 20px;
-    text-align: center;
+    aspect-ratio: 1 / 1; /* Força proporção estritamente quadrada */
+    padding: 20px; /* */
+    text-align: center; /* */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* */
 }
 
-.skill-square-card:hover {
-    transform: translateY(-5px);
-    border-color: #38bdf8;
+.carousel-container .skill-square-card:hover {
+    transform: translateY(-5px); /* */
+    border-color: #38bdf8; /* */
 }
 
+/* Formatação e centralização das Imagens dos Ícones */
 .icon-visual {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    background-color: #0f172a;
+    width: 65px; /* */
+    height: 65px; /* */
+    border-radius: 50%; /* */
+    background-color: #0f172a; /* */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 800;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
+    margin-bottom: 15px; /* */
+    transition: all 0.3s ease; /* */
+    border: 2px solid transparent; /* */
+}
+
+.icon-visual img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
 }
 
 .skill-name {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #94a3b8;
-    transition: color 0.3s ease;
+    font-size: 1rem; /* */
+    font-weight: 600; /* */
+    color: #94a3b8; /* */
+    transition: color 0.3s ease; /* */
 }
 
 .skill-square-card:hover .skill-name {
-    color: #f8fafc;
+    color: #f8fafc; /* */
 }
 
-/* Efeitos de Brilho nos Ícones no Hover */
-.skill-square-card:hover .html5-glow { border-color: #ea580c; box-shadow: 0 0 15px rgba(234, 88, 12, 0.5); }
-.skill-square-card:hover .css3-glow { border-color: #2563eb; box-shadow: 0 0 15px rgba(37, 99, 235, 0.5); }
-.skill-square-card:hover .js-glow { border-color: #ca8a04; box-shadow: 0 0 15px rgba(202, 138, 4, 0.5); }
-.skill-square-card:hover .ts-glow { border-color: #3178c6; box-shadow: 0 0 15px rgba(49, 120, 198, 0.5); }
-.skill-square-card:hover .python-glow { border-color: #16a34a; box-shadow: 0 0 15px rgba(22, 163, 74, 0.5); }
-.skill-square-card:hover .c-glow { border-color: #0284c7; box-shadow: 0 0 15px rgba(2, 132, 199, 0.5); }
-.skill-square-card:hover .git-glow { border-color: #dc2626; box-shadow: 0 0 15px rgba(220, 38, 38, 0.5); }
-.skill-square-card:hover .sql-glow { border-color: #7c3aed; box-shadow: 0 0 15px rgba(124, 58, 237, 0.5); }
+.carousel-track {
+    display: flex;
+    width: max-content;
+}
+
+/* Ativação das Animações */
+.src-left-to-right .carousel-track {
+    animation: scrollLeftToRight 25s linear infinite;
+}
+
+.src-right-to-left .carousel-track {
+    animation: scrollRightToLeft 25s linear infinite;
+}
+
+/* Pausa o movimento ao passar o rato por cima */
+.carousel-container:hover .carousel-track {
+    animation-play-state: paused;
+}
+
+/* Efeitos de Brilho nos Ícones no Hover (Glow) */
+.skill-square-card:hover .html5-glow { border-color: #ea580c; box-shadow: 0 0 15px rgba(234, 88, 12, 0.5); } /* */
+.skill-square-card:hover .css3-glow { border-color: #2563eb; box-shadow: 0 0 15px rgba(37, 99, 235, 0.5); } /* */
+.skill-square-card:hover .js-glow { border-color: #ca8a04; box-shadow: 0 0 15px rgba(202, 138, 4, 0.5); } /* */
+.skill-square-card:hover .ts-glow { border-color: #3178c6; box-shadow: 0 0 15px rgba(49, 120, 198, 0.5); } /* */
+.skill-square-card:hover .python-glow { border-color: #16a34a; box-shadow: 0 0 15px rgba(22, 163, 74, 0.5); } /* */
+.skill-square-card:hover .c-glow { border-color: #0284c7; box-shadow: 0 0 15px rgba(2, 132, 199, 0.5); } /* */
+.skill-square-card:hover .git-glow { border-color: #dc2626; box-shadow: 0 0 15px rgba(220, 38, 38, 0.5); } /* */
+.skill-square-card:hover .sql-glow { border-color: #7c3aed; box-shadow: 0 0 15px rgba(124, 58, 237, 0.5); } /* */
+.skill-square-card:hover .django-glow { border-color: #092e20; box-shadow: 0 0 15px rgba(9, 46, 32, 0.6); }
+.skill-square-card:hover .linux-glow { border-color: #fda403; box-shadow: 0 0 15px rgba(253, 164, 3, 0.6); }
+
+/* Lógica Matemática de Deslocamento para 5 cards (Largura: 200px + Margin: 25px = 225px) */
+@keyframes scrollLeftToRight {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-225px * 5)); }
+}
+
+@keyframes scrollRightToLeft {
+    0% { transform: translateX(calc(-225px * 5)); }
+    100% { transform: translateX(0); }
+}
 
 /* ==================================================================
    7) PROJETOS
