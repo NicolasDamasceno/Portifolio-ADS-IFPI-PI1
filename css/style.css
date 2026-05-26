@@ -231,57 +231,124 @@ body {
     justify-content: center;
 }
 
+.code-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.code-bar {
+    background: #1e293b;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.code-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.code-dots span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+}
+
+.red-dot{
+    background-color: #ef4444;
+}
+
+.orange-dot{
+    background-color:#f59e0b;
+}
+
+.green-dot{
+    background-color: #22c55e;
+}
+
+.code-filename {
+    font-size: 12px;
+    color: #94a3b8;
+    font-family: 'Courier New', monospace;
+}
+
+.code-filename em {
+    color: #38bdf8;
+    font-style: normal;
+}
+
+.code-body {
+    background: #0d1929;
+    padding: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    line-height: 1.9;
+    text-align: left; 
+    overflow-x: auto;
+}
+
 /* ==================================================================
-   3) SEÇÃO EQUIPE
+   3) AVATAR INICIAL
    ================================================================== */
-.team-grid {
+.personal-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.card-member {
+.card {
     background-color: #1e293b;
     border-radius: 12px;
+    display: flex;
     overflow: hidden;
     border: 1px solid rgba(148, 163, 184, 0.08);
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-member:hover {
+.card:hover {
     transform: translateY(-8px);
     border-color: #38bdf8;
     box-shadow: 0 12px 24px rgba(56, 189, 248, 0.1);
 }
 
 .avatar-box {
-    height: 250px;
+    flex: 0 0 220px;
     overflow: hidden;
     background-color: #0f172a;
+    align-self: stretch;
 }
 
 .avatar-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
     transition: transform 0.4s ease;
 }
 
-.card-member:hover .avatar-box img {
+.card:hover .avatar-box img {
     transform: scale(1.05);
 }
 
-.member-info {
+.info {
+    flex: 1;
     padding: 25px;
 }
 
-.member-info h3 {
+.info h3 {
     font-size: 1.35rem;
     margin-bottom: 4px;
 }
 
-.member-info .role {
+.info .role {
     display: block;
     font-size: 0.85rem;
     color: #38bdf8;
@@ -290,20 +357,20 @@ body {
     margin-bottom: 15px;
 }
 
-.member-info .bio {
+.info .bio {
     font-size: 0.95rem;
     color: #94a3b8;
     margin-bottom: 15px;
     min-height: 70px;
 }
 
-.member-info .fav-tech {
+.info .fav-tech {
     font-size: 0.9rem;
     margin-bottom: 20px;
     color: #f8fafc;
 }
 
-.member-socials a {
+.socials a {
     color: #94a3b8;
     text-decoration: none;
     font-size: 0.9rem;
@@ -312,12 +379,12 @@ body {
     transition: color 0.2s ease;
 }
 
-.member-socials a:hover {
+.socials a:hover {
     color: #7c3aed;
 }
 
 /* ==================================================================
-   4) SOBRE A EQUIPE
+   4) SOBRE A MIM
    ================================================================== */
 .about-wrapper {
     max-width: 800px;
@@ -333,7 +400,43 @@ body {
 }
 
 /* ==================================================================
-   5) HABILIDADES (CARDS QUADRADOS EM GRID LADO A LADO)
+   5) ESTÁTICAS
+   ================================================================== */
+.sobre-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.stats-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    text-align: center;
+}
+
+.stats-term{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #38bdf8;
+    line-height: 1;
+}
+
+.stats-description{
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #94a3b8;
+}
+
+/* ==================================================================
+   6) HABILIDADES (CARDS QUADRADOS EM GRID LADO A LADO)
    ================================================================== */
 .skills-square-grid {
     display: grid;
@@ -397,7 +500,7 @@ body {
 .skill-square-card:hover .sql-glow { border-color: #7c3aed; box-shadow: 0 0 15px rgba(124, 58, 237, 0.5); }
 
 /* ==================================================================
-   6) PROJETOS DA EQUIPE
+   7) PROJETOS
    ================================================================== */
 .projects-grid {
     display: grid;
@@ -477,7 +580,7 @@ body {
 }
 
 /* ==================================================================
-   7) CONTATO
+   8) CONTATO
    ================================================================== */
 .contact-box {
     max-width: 600px;
@@ -520,7 +623,7 @@ body {
 }
 
 /* ==================================================================
-   8) FOOTER
+   9) FOOTER
    ================================================================== */
 footer {
     background-color: #0b0f19;
@@ -574,7 +677,7 @@ footer {
    ================================================================== */
 
 @media (max-width: 992px) {
-    .team-grid, .projects-grid {
+    .personal-grid, .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
     
@@ -625,7 +728,7 @@ footer {
     }
 
     /* Empilhamento completo exigido para telas pequenas */
-    .team-grid, .projects-grid {
+    .personal-grid, .projects-grid {
         grid-template-columns: 1fr;
     }
     
