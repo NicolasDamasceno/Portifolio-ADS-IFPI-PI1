@@ -85,7 +85,7 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 
 | Recurso | Link |
 | :--- | :--- |
-| 🌐 GitHub Pages | *[a definir]* |
+| 🌐 GitHub Pages | *https://nicolasdamasceno.github.io/Portifolio-ADS-IFPI-PI1/* |
 | 🎬 Vídeo de Apresentação | *[a definir]* |
 
 ---
