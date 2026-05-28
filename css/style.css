@@ -393,7 +393,9 @@ body {
 }
 
 .socials {
+    position: relative;
     display: flex;
+    align-items: center;
     gap: 15px;            
     margin-top: 15px;
 }
@@ -415,6 +417,28 @@ body {
     transform: scale(1.15);
     color: #38bdf8;
     border-color: #38bdf8;
+}
+
+.spiderman-egg {
+    width: 65px;             
+    height: 65px;            
+    background-image: url('../img/gifs/spiderman.gif');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;      
+    box-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
+    opacity: 0;
+    transform: scale(0.3) translateY(-20px);
+    transform-origin: top center; 
+    
+    transition: opacity 0.25s ease, transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    pointer-events: none;
+}
+
+.sobre-wrapper:hover .spiderman-egg {
+    opacity: 1;
+    transform: scale(1) translateY(0); 
 }
 
 .about-wrapper {
@@ -1057,6 +1081,7 @@ footer {
     }
 
     .avatar-box {
+        position: relative;
         flex: none;
         height: 280px;
     }
@@ -1119,5 +1144,10 @@ footer {
 
     .about-bio-card {
         padding: 1.4rem;
+    }
+    
+    .spiderman-egg {
+        width: 35px;         
+        height: 35px;
     }
 }
