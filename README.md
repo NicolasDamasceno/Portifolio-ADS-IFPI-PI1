@@ -19,7 +19,7 @@
 
 ## 🖥️ Tema Escolhido
 
-> **DESENVOLVEDORES FRONT-END** > Identidade visual *dark mode* tecnológica e minimalista, utilizando os conceitos do PixelForge Studio.
+> **DESENVOLVEDOR FULLSTACK**> Identidade visual dark mode imersiva e minimalista, inspirada em ambientes de desenvolvimento (IDEs) e terminais. Combina elementos tecnológicos, como blocos de código sintáticos e tipografia monoespaçada, com alto contraste em tons de azul neon.
 
 ---
 
