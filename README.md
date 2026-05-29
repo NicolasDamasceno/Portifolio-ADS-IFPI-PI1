@@ -25,7 +25,7 @@
 
 ## 📋 Descrição do Projeto
 
-Portfólio pessoal coletivo e responsivo simulando a página profissional de uma equipe de desenvolvedores front-end. O site foi desenvolvido por alunos do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas coletivas organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
+Portfólio pessoal coletivo e responsivo simulando a página profissional de um desenvolvedor FullStack. O site foi desenvolvido pelo grupo em destaque do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas coletivas organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
 
 Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer framework ou biblioteca externa como Bootstrap ou Tailwind.
 
@@ -34,11 +34,26 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 ## 📁 Estrutura de Arquivos
 ```portfolio/
 │
-├── index.html
 ├── css/
 │   └── style.css
 ├── img/
-│   
+│   ├── gifs/
+│   │   └── spiderman.gif
+│   ├── icons/
+│   │   ├── c-.png
+│   │   ├── communication.png
+│   │   ├── css.png
+│   │   ├── database.png
+│   │   ├── django.png
+│   │   ├── github.png
+│   │   ├── html.png
+│   │   ├── js.png
+│   │   ├── linkedin.png
+│   │   ├── linux.png
+│   │   ├── python.png
+│   │   └── typescript.png
+│   └── perfil.jpg
+├── index.html
 └── README.md
 ```
 ---
