@@ -2,7 +2,7 @@
 
 > Trabalho desenvolvido para a disciplina **Programação para a Internet I**  
 > Instituto Federal de Educação, Ciência e Tecnologia do Piauí — IFPI  
-> Professor: Ely Miranda
+> Professor: Ely Miranda  
 > Grupo: Guilherme Alves, Marcos Gabriel e Nicolas Damasceno
 
 ---
