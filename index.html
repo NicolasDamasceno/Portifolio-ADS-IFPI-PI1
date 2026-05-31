@@ -15,10 +15,8 @@
             <a href="#inicio" class="logo">Nicolas<span> Damasceno</span></a>
             <nav aria-label="Navegação principal">
                 <ul class="nav-links">
-                    <li><a href="#inicio">Home</a></li>
                     <li><a href="#sobre-mim">Sobre</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#certificados">Certificados</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
@@ -32,13 +30,15 @@
             <div class="hero-container">
                 <div class="hero-content">
                     <h1>Desenvolvedor <span>FullStack</span></h1>
-
                     <div class="code-container">
                         <div class="code-bar">
-                            <div class="code-dots">
-                                <span class="red-dot"></span>
-                                <span class="orange-dot"></span>
-                                <span class="green-dot"></span>
+                            <div class="code-tab active-tab">
+                                <span class="tab-icon py-icon1">&#9679;</span>
+                                <span class="tab-name">desenvolvedor.py</span>
+                            </div>
+                            <div class="code-tab">
+                                <span class="tab-icon py-icon2">&#9679;</span>
+                                <span class="tab-name">main.py</span>
                             </div>
                         </div>
                         <pre class="code-body">
@@ -51,12 +51,9 @@
 <span class="c-kw">07</span> novoDesenvolvedor = <span class="c-fn">Desenvolvedor</span>(<span class="c-str">"Nicolas Damasceno"</span>, <span class="c-num">22</span>, <span class="c-bool">True</span>)
 <span class="c-kw">08</span></pre>
                     </div>
-
                     <p class="slogan">print(<span>"Conhecendo um pouco mais de um desenvolvedor júnior na internet!"</span>)</p>
-
                     <div class="hero-buttons">
                         <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
-                        <a href="#contato" class="btn btn-secondary">Contato</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +62,6 @@
         <section id="sobre-mim" class="section-padding">
             <div class="container">
                 <h2 class="section-title">Bem-vindo ao meu portfólio</h2>
-
                 <div class="sobre-wrapper">
                     <div class="avatar-box">
                         <img src="img/perfil.jpg" alt="Foto de Nicolas Damasceno" class="responsive-img">
@@ -74,7 +70,6 @@
                         <h3>Nicolas Antônio Damasceno Sales Campos</h3>
                         <span class="role">Desenvolvedor FullStack</span>
                         <p class="bio">Futuro desenvolvedor fullstack e estudante de Análise e Desenvolvimento de Sistemas do Instituto Federal do Piauí — IFPI. Em busca do bom desenvolvimento de carreira e pessoal, com foco em construir soluções completas e eficientes.</p>
-
                         <table class="info-table" aria-label="Informações pessoais">
                             <tbody>
                                 <tr>
@@ -82,7 +77,11 @@
                                     <td>Teresina, PI — Brasil</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Formação</th>
+                                    <th scope="row">Técnico</th>
+                                    <td>ADS — IFPI (2024)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Graduação</th>
                                     <td>ADS — IFPI (em andamento)</td>
                                 </tr>
                                 <tr>
@@ -95,10 +94,17 @@
                                 </tr>
                             </tbody>
                         </table>
-
                         <div class="socials">
-                            <a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            <a href="https://www.linkedin.com/in/nicolas-damasceno-045108342/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            <a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer">
+                                <img src="img/icons/github.png" alt="Github" class="social-icon">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nicolas-damasceno-045108342/" target="_blank" rel="noopener noreferrer">
+                                <img src="img/icons/linkedin.png" alt="LinkedIn" class="social-icon">
+                            </a>
+                            <a href="https://www.instagram.com/nic0lasdamasceno" target="_blank" rel="noopener noreferrer">
+                                <img src="img/icons/instagram.png" alt="Instagram" class="social-icon">
+                            </a>
+                            <div class="spiderman-egg"></div>
                         </div>
                     </article>
                 </div>
@@ -114,112 +120,113 @@
                         <p>Apaixonado por tecnologia desde cedo, comecei minha jornada no desenvolvimento explorando lógica de programação em C e Python. Hoje aplico essa base sólida em projetos web fullstack, integrando back-end com Python e Django a interfaces responsivas em HTML, CSS e JavaScript. Acredito em código limpo, versionamento disciplinado e na importância de entender os dados antes de manipulá-los.</p>
                     </div>
                 </div>
-
-                <dl class="sobre-stats">
-                    <div class="stats-item">
-                        <dt class="stats-term">1+</dt>
-                        <dd class="stats-description">Tempo de experiência</dd>
+                <div class="sobre-stats">
+                    <div class="stat-item">
+                        <span class="stat-numero">5+</span>
+                        <span class="stat-label">Projetos entregues</span>
                     </div>
-                    <div class="stats-item">
-                        <dt class="stats-term">3+</dt>
-                        <dd class="stats-description">Projetos concluídos</dd>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat-item">
+                        <span class="stat-numero">6+</span>
+                        <span class="stat-label">Certificados obtidos</span>
                     </div>
-                    <div class="stats-item">
-                        <dt class="stats-term">12+</dt>
-                        <dd class="stats-description">Certificados obtidos</dd>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat-item">
+                        <span class="stat-numero">8+</span>
+                        <span class="stat-label">Tecnologias conhecidas</span>
                     </div>
-                    <div class="stats-item">
-                        <dt class="stats-term">8+</dt>
-                        <dd class="stats-description">Tecnologias</dd>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat-item">
+                        <span class="stat-numero">2025</span>
+                        <span class="stat-label">Início da graduação</span>
                     </div>
-                </dl>
+                </div>
             </div>
         </section>
 
         <section id="habilidades" class="section-padding">
             <div class="container">
                 <h2 class="section-title">Habilidades</h2>
-
                 <div class="skills-layout">
-
                     <div class="skills-marquee-col">
                         <h3 class="skills-col-title">Front-end</h3>
                         <div class="marquee-wrap">
                             <ul class="marquee-track" aria-label="Habilidades de front-end">
-                                <li class="skill-pill html5-pill">HTML5</li>
-                                <li class="skill-pill css3-pill">CSS3</li>
-                                <li class="skill-pill js-pill">JavaScript</li>
-                                <li class="skill-pill ts-pill">TypeScript</li>
-                                <li class="skill-pill html5-pill">HTML5</li>
-                                <li class="skill-pill css3-pill">CSS3</li>
-                                <li class="skill-pill js-pill">JavaScript</li>
-                                <li class="skill-pill ts-pill">TypeScript</li>
+                                <li class="skill-pill html5-pill"><img src="img/icons/html.png" alt="HTML5" class="pill-icon"> HTML5</li>
+                                <li class="skill-pill css3-pill"><img src="img/icons/css.png" alt="CSS3" class="pill-icon"> CSS3</li>
+                                <li class="skill-pill react-pill"><img src="img/icons/react.png" alt="React" class="pill-icon"> React</li>
+                                <li class="skill-pill django-pill"><img src="img/icons/django.png" alt="Django" class="pill-icon"> Django</li>
+                                <li class="skill-pill html5-pill"><img src="img/icons/html.png" alt="HTML5" class="pill-icon"> HTML5</li>
+                                <li class="skill-pill css3-pill"><img src="img/icons/css.png" alt="CSS3" class="pill-icon"> CSS3</li>
+                                <li class="skill-pill react-pill"><img src="img/icons/react.png" alt="React" class="pill-icon"> React</li>
+                                <li class="skill-pill django-pill"><img src="img/icons/django.png" alt="Django" class="pill-icon"> Django</li>
+                                <li class="skill-pill html5-pill"><img src="img/icons/html.png" alt="HTML5" class="pill-icon"> HTML5</li>
+                                <li class="skill-pill css3-pill"><img src="img/icons/css.png" alt="CSS3" class="pill-icon"> CSS3</li>
+                                <li class="skill-pill react-pill"><img src="img/icons/react.png" alt="React" class="pill-icon"> React</li>
+                                <li class="skill-pill django-pill"><img src="img/icons/django.png" alt="Django" class="pill-icon"> Django</li>
                             </ul>
                         </div>
-
                         <h3 class="skills-col-title" style="margin-top:2rem">Ferramentas</h3>
                         <div class="marquee-wrap">
                             <ul class="marquee-track marquee-reverse" aria-label="Ferramentas">
-                                <li class="skill-pill git-pill">Git</li>
-                                <li class="skill-pill gh-pill">GitHub</li>
-                                <li class="skill-pill linux-pill">Linux</li>
-                                <li class="skill-pill git-pill">Git</li>
-                                <li class="skill-pill gh-pill">GitHub</li>
-                                <li class="skill-pill linux-pill">Linux</li>
+                                <li class="skill-pill gh-pill"><img src="img/icons/github.png" alt="GitHub" class="pill-icon"> GitHub</li>
+                                <li class="skill-pill linux-pill"><img src="img/icons/linux.png" alt="Linux" class="pill-icon"> Linux</li>
+                                <li class="skill-pill git-pill"><img src="img/icons/git.png" alt="Git" class="pill-icon"> Git</li>
+                                <li class="skill-pill gh-pill"><img src="img/icons/github.png" alt="GitHub" class="pill-icon"> GitHub</li>
+                                <li class="skill-pill linux-pill"><img src="img/icons/linux.png" alt="Linux" class="pill-icon"> Linux</li>
+                                <li class="skill-pill git-pill"><img src="img/icons/git.png" alt="Git" class="pill-icon"> Git</li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="skills-table-col">
-                        <h3 class="skills-col-title">Back-end &amp; Dados — Proficiência</h3>
+                        <h3 class="skills-col-title">Stacks &amp; Ferramentas</h3>
                         <table class="skills-table" aria-label="Nível de proficiência por tecnologia">
                             <thead>
                                 <tr>
                                     <th scope="col">Tecnologia</th>
                                     <th scope="col">Nível</th>
-                                    <th scope="col">Barra</th>
+                                    <th scope="col">Tipo</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><span class="skill-dot python-dot"></span> Python</td>
-                                    <td>Avançado</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:88%"></div></div></td>
+                                    <td><img src="img/icons/python.png" alt="Python" class="skill-icon-table"> Python</td>
+                                    <td><span class="nivel-badge nivel-avancado">Avançado</span></td>
+                                    <td><span class="tipo-badge tipo-linguagem">Linguagem</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="skill-dot django-dot"></span> Django</td>
-                                    <td>Intermediário</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:72%"></div></div></td>
+                                    <td><img src="img/icons/js.png" alt="JavaScript" class="skill-icon-table"> JavaScript</td>
+                                    <td><span class="nivel-badge nivel-intermediario">Intermediário</span></td>
+                                    <td><span class="tipo-badge tipo-linguagem">Linguagem</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="skill-dot c-dot"></span> C / C++</td>
-                                    <td>Intermediário</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:65%"></div></div></td>
+                                    <td><img src="img/icons/typescript.png" alt="TypeScript" class="skill-icon-table"> TypeScript</td>
+                                    <td><span class="nivel-badge nivel-intermediario">Intermediário</span></td>
+                                    <td><span class="tipo-badge tipo-linguagem">Linguagem</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="skill-dot sql-dot"></span> PostgreSQL</td>
-                                    <td>Intermediário</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:68%"></div></div></td>
+                                    <td><img src="img/icons/cplus.png" alt="C / C++" class="skill-icon-table"> C / C++</td>
+                                    <td><span class="nivel-badge nivel-intermediario">Intermediário</span></td>
+                                    <td><span class="tipo-badge tipo-linguagem">Linguagem</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="skill-dot html5-dot"></span> HTML5</td>
-                                    <td>Avançado</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:90%"></div></div></td>
+                                    <td><img src="img/icons/database.png" alt="PostgreSQL" class="skill-icon-table"> PostgreSQL</td>
+                                    <td><span class="nivel-badge nivel-intermediario">Intermediário</span></td>
+                                    <td><span class="tipo-badge tipo-banco">Banco de dados</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="skill-dot css3-dot"></span> CSS3</td>
-                                    <td>Avançado</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:85%"></div></div></td>
+                                    <td><img src="img/icons/html.png" alt="HTML5" class="skill-icon-table"> HTML5</td>
+                                    <td><span class="nivel-badge nivel-avancado">Avançado</span></td>
+                                    <td><span class="tipo-badge tipo-marcacao">Marcação</span></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="skill-dot js-dot"></span> JavaScript</td>
-                                    <td>Intermediário</td>
-                                    <td><div class="prog-bar"><div class="prog-fill" style="--w:70%"></div></div></td>
+                                    <td><img src="img/icons/css.png" alt="CSS3" class="skill-icon-table"> CSS3</td>
+                                    <td><span class="nivel-badge nivel-avancado">Avançado</span></td>
+                                    <td><span class="tipo-badge tipo-estilizacao">Estilização</span></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -228,7 +235,6 @@
             <div class="container">
                 <h2 class="section-title">Projetos</h2>
                 <div class="projects-grid">
-
                     <article class="card-project">
                         <div class="project-header">
                             <h3>Sistema de Consultas SQL</h3>
@@ -240,10 +246,11 @@
                                 <li>SQL</li>
                                 <li>PostgreSQL</li>
                             </ul>
-                            <a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer" class="btn-git">Ver no GitHub</a>
+                            <a href="https://github.com/NicolasDamasceno/Banco-De-Dados-SQL" target="_blank" rel="noopener noreferrer" class="btn-git">
+                                <img src="img/icons/github.png" alt="" class="btn-git-icon"> Ver no GitHub
+                            </a>
                         </div>
                     </article>
-
                     <article class="card-project">
                         <div class="project-header">
                             <h3>Scripts em C / C++</h3>
@@ -255,27 +262,62 @@
                                 <li>C</li>
                                 <li>C++</li>
                             </ul>
-                            <a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer" class="btn-git">Ver no GitHub</a>
+                            <a href="https://github.com/NicolasDamasceno/Estrutura-de-Dados-II-em-C" target="_blank" rel="noopener noreferrer" class="btn-git">
+                                <img src="img/icons/github.png" alt="" class="btn-git-icon"> Ver no GitHub
+                            </a>
                         </div>
                     </article>
-
                     <article class="card-project">
                         <div class="project-header">
                             <h3>Aplicação Web com Django</h3>
                             <span class="project-count">Fullstack</span>
                         </div>
                         <div class="project-body">
-                            <p>Aplicação web fullstack com Python e Django no back-end, integração com banco de dados PostgreSQL e interface responsiva com HTML e CSS.</p>
+                            <p>Aplicação web fullstack com Python e Django no back-end, integração com banco de dados SQLite3 e interface responsiva com HTML e CSS.</p>
                             <ul class="project-techs">
                                 <li>Python</li>
                                 <li>Django</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
                             </ul>
-                            <a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer" class="btn-git">Ver no GitHub</a>
+                            <a href="https://github.com/NicolasDamasceno/Projeto-Heimdall" target="_blank" rel="noopener noreferrer" class="btn-git">
+                                <img src="img/icons/github.png" alt="" class="btn-git-icon"> Ver no GitHub
+                            </a>
                         </div>
                     </article>
-
+                    <article class="card-project">
+                        <div class="project-header">
+                            <h3>Aplicação de Objetos com TypeScript</h3>
+                            <span class="project-count">P.O.O</span>
+                        </div>
+                        <div class="project-body">
+                            <p>Minigame de RPG aplicando Programação Orientada a Objetos em TypeScript com savestates e Padrão Fábrica.</p>
+                            <ul class="project-techs">
+                                <li>TypeScript</li>
+                                <li>JavaScript</li>
+                                <li>JSON</li>
+                            </ul>
+                            <a href="https://github.com/NicolasDamasceno/POO-TS-TrabalhoFinal" target="_blank" rel="noopener noreferrer" class="btn-git">
+                                <img src="img/icons/github.png" alt="" class="btn-git-icon"> Ver no GitHub
+                            </a>
+                        </div>
+                    </article>
+                    <article class="card-project">
+                        <div class="project-header">
+                            <h3>Gestão de AutoPeça com Postgre</h3>
+                            <span class="project-count">PostgreSQL</span>
+                        </div>
+                        <div class="project-body">
+                            <p>Gestão de uma rede de distribuidora de desmonte e revenda de autopeças com SQL.</p>
+                            <ul class="project-techs">
+                                <li>SQL</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                            <a href="https://github.com/NicolasDamasceno/AutoRecicla-Trabalho-BDII" target="_blank" rel="noopener noreferrer" class="btn-git">
+                                <img src="img/icons/github.png" alt="" class="btn-git-icon"> Ver no GitHub
+                            </a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -284,30 +326,28 @@
             <div class="container">
                 <h2 class="section-title">Certificados</h2>
                 <div class="cert-grid">
-
                     <article class="cert-card">
                         <div class="cert-faixa"></div>
                         <div class="cert-body">
                             <div class="cert-topo">
-                                <span class="cert-instituicao">Harvard</span>
+                                <span class="cert-instituicao">Senac</span>
                                 <span class="cert-ano">2023</span>
                             </div>
-                            <h3 class="cert-titulo">CS50's Introduction to Programming with Python</h3>
+                            <h3 class="cert-titulo">Programação para Sistemas Financeiros</h3>
                             <ul class="cert-tags">
                                 <li>Python</li>
                                 <li>Lógica</li>
                             </ul>
                         </div>
                     </article>
-
                     <article class="cert-card">
                         <div class="cert-faixa"></div>
                         <div class="cert-body">
                             <div class="cert-topo">
-                                <span class="cert-instituicao">Harvard</span>
+                                <span class="cert-instituicao">IFPI</span>
                                 <span class="cert-ano">2024</span>
                             </div>
-                            <h3 class="cert-titulo">CS50's Web Programming with Python and JavaScript</h3>
+                            <h3 class="cert-titulo">Técnico em Análise e Desenvolvimento de Sistemas</h3>
                             <ul class="cert-tags">
                                 <li>Python</li>
                                 <li>JavaScript</li>
@@ -315,75 +355,93 @@
                             </ul>
                         </div>
                     </article>
-
                     <article class="cert-card">
                         <div class="cert-faixa"></div>
                         <div class="cert-body">
                             <div class="cert-topo">
-                                <span class="cert-instituicao">Harvard</span>
-                                <span class="cert-ano">2025</span>
+                                <span class="cert-instituicao">IFPI</span>
+                                <span class="cert-ano">Em andamento</span>
                             </div>
-                            <h3 class="cert-titulo">CS50's Introduction to AI with Python</h3>
+                            <h3 class="cert-titulo">Técnologo em Análise e Desenvolvimento de Sistemas</h3>
                             <ul class="cert-tags">
                                 <li>Python</li>
                                 <li>IA</li>
                             </ul>
                         </div>
                     </article>
-
                     <article class="cert-card">
                         <div class="cert-faixa"></div>
                         <div class="cert-body">
                             <div class="cert-topo">
                                 <span class="cert-instituicao">Cisco</span>
-                                <span class="cert-ano">2022</span>
+                                <span class="cert-ano">Em andamento</span>
                             </div>
-                            <h3 class="cert-titulo">PCAP: Programming Essentials in Python</h3>
+                            <h3 class="cert-titulo">Introdução a Ciência de Dados</h3>
                             <ul class="cert-tags">
                                 <li>Python</li>
                             </ul>
                         </div>
                     </article>
-
                     <article class="cert-card">
                         <div class="cert-faixa"></div>
                         <div class="cert-body">
                             <div class="cert-topo">
-                                <span class="cert-instituicao">DIO</span>
+                                <span class="cert-instituicao">FreeCodeCamp</span>
                                 <span class="cert-ano">2026</span>
                             </div>
-                            <h3 class="cert-titulo">Criando suas Primeiras Consultas SQL</h3>
+                            <h3 class="cert-titulo">Curso Completo de JavaScript</h3>
                             <ul class="cert-tags">
-                                <li>SQL</li>
-                                <li>PostgreSQL</li>
+                                <li>JavaScript</li>
                             </ul>
                         </div>
                     </article>
-
                     <article class="cert-card">
                         <div class="cert-faixa"></div>
                         <div class="cert-body">
                             <div class="cert-topo">
-                                <span class="cert-instituicao">DIO</span>
-                                <span class="cert-ano">2026</span>
+                                <span class="cert-instituicao">Python Nordeste</span>
+                                <span class="cert-ano">2025</span>
                             </div>
-                            <h3 class="cert-titulo">Git e GitHub: Primeiros Passos e Configuração</h3>
+                            <h3 class="cert-titulo">Evento de Tecnologia em Python</h3>
                             <ul class="cert-tags">
-                                <li>Git</li>
-                                <li>GitHub</li>
+                                <li>Python</li>
+                                <li>Django</li>
                             </ul>
                         </div>
                     </article>
-
                 </div>
             </div>
         </section>
 
         <section id="contato" class="section-padding bg-alt">
             <div class="container">
-                <h2 class="section-title">Dúvidas? Mande um E-mail por aqui!</h2>
+                <h2 class="section-title">Dúvidas? Entre em contanto por aqui!</h2>
+                <div class="contact-cards">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicolasbackprogrammer@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <img src="img/icons/gmail.png" alt="Gmail" class="contact-card-icon">
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">E-mail</span>
+                            <span class="contact-card-value">nicolasbackprogrammer@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/5586994271037" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <img src="img/icons/whatsapp.png" alt="WhatsApp" class="contact-card-icon">
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">WhatsApp</span>
+                            <span class="contact-card-value">+55 (86) 99427-1037</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nicolas-damasceno-045108342/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <img src="img/icons/linkedin.png" alt="LinkedIn" class="contact-card-icon">
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">LinkedIn</span>
+                            <span class="contact-card-value">/in/nicolas-damasceno</span>
+                        </div>
+                    </a>
+                </div>
+                <h2 class="contact-form-title">Ou mande um e-mail por aqui diretamente!</h2>
                 <div class="contact-box">
-                    <form action="#" method="POST" class="contact-form" novalidate>
+                    <form action="mailto:nicolasbackprogrammer@gmail.com" method="POST" enctype="text/plain" class="contact-form" novalidate>
                         <div class="input-group">
                             <label for="nome">Nome Completo</label>
                             <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
@@ -415,9 +473,31 @@
                 <span class="footer-tagline">Projetando a camada visível da inovação.</span>
             </div>
             <ul class="footer-links">
-                <li><a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/nicolas-damasceno-045108342/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="mailto:nicolasbackprogrammer@gmail.com">E-mail</a></li>
+                <li>
+                    <a href="https://github.com/NicolasDamasceno" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icons/github.png" alt="GitHub" class="footer-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/nicolas-damasceno-045108342/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icons/linkedin.png" alt="LinkedIn" class="footer-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/nic0lasdamasceno" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icons/instagram.png" alt="Instagram" class="footer-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicolasbackprogrammer@gmail.com" target="_blank">
+                        <img src="img/icons/gmail.png" alt="E-mail" class="footer-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5586994271037" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icons/whatsapp.png" alt="WhatsApp" class="footer-icon">
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
