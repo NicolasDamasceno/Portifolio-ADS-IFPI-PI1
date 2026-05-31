@@ -983,6 +983,14 @@ body {
     margin-bottom: 24px;
 }
 
+.form-aviso {
+    font-size: 0.75rem;
+    color: #64748b;
+    text-align: center;
+    margin-top: 12px;
+    font-style: italic;
+}
+
 .contact-box {
     max-width: 600px;
     margin: 0 auto;
@@ -1170,25 +1178,300 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .nav-container {
+        padding: 12px 16px;
+    }
+    .nav-links a {
+        font-size: 0.78rem;
+    }
+    .nav-links li {
+        margin: 0 5px;
+    }
     .hero-content h1 {
         font-size: 2rem;
     }
     .slogan {
         font-size: 0.9rem;
     }
-    .cert-grid {
-        grid-template-columns: 1fr;
+    .code-body {
+        font-size: 0.78rem;
+        padding: 1rem;
     }
-    .stat-item {
-        flex: 0 0 50%;
+    .hero-section {
+        padding: 120px 0 60px;
     }
-    .skills-marquee-col {
-        grid-template-columns: 1fr;
+    .sobre-wrapper {
+        flex-direction: column;
+    }
+    .avatar-box {
+        height: 240px;
+    }
+    .sobre-info {
+        padding: 1.4rem;
+    }
+    .sobre-info h3 {
+        font-size: 1.05rem;
+    }
+    .info-table th,
+    .info-table td {
+        padding: 0.45rem 0.6rem;
+        font-size: 0.8rem;
     }
     .about-bio-card {
         padding: 1.4rem;
     }
+    .about-bio-card p {
+        font-size: 0.95rem;
+    }
+    .stat-numero {
+        font-size: 1.9rem;
+    }
+    .stat-label {
+        font-size: 0.65rem;
+    }
+    .stat-item {
+        flex: 0 0 50%;
+        padding: 0.7rem;
+    }
+    .stat-numero {
+        font-size: 1.7rem;
+    }
+    .stat-label {
+        font-size: 0.6rem;
+        letter-spacing: 0.05rem;
+    }
+    #back-to-top {
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
+        bottom: 16px;
+        right: 16px;
+    }
+    .sobre-stats {
+        padding: 1.4rem 0;
+        gap: 0;
+    }
+    .skills-marquee-col {
+        grid-template-columns: 1fr;
+    }
+    .marquee-wrap {
+        height: 130px;
+    }
+    .skill-pill {
+        font-size: 0.78rem;
+        padding: 0.4rem 1rem;
+    }
+    .skills-table th,
+    .skills-table td {
+        padding: 0.55rem 0.5rem;
+        font-size: 0.78rem;
+    }
+    .nivel-badge,
+    .tipo-badge {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
+    }
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .project-header h3 {
+        font-size: 0.95rem;
+    }
+    .project-body p {
+        font-size: 0.85rem;
+    }
+    .cert-grid {
+        grid-template-columns: 1fr;
+    }
+    .cert-titulo {
+        font-size: 0.85rem;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
     .contact-cards {
         grid-template-columns: 1fr;
+    }
+    .contact-card {
+        padding: 0.8rem 1rem;
+    }
+    .contact-card-value {
+        font-size: 0.75rem;
+    }
+    .contact-box {
+        padding: 20px;
+    }
+    .contact-form-title {
+        font-size: 1.1rem;
+    }
+    .footer-container {
+        padding: 0 16px;
+        gap: 16px;
+    }
+    .footer-links {
+        gap: 14px;
+    }
+    .footer-links .footer-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media (max-width: 380px) {
+    .nav-links a {
+        font-size: 0.7rem;
+    }
+    .nav-links li {
+        margin: 0 3px;
+    }
+    .logo {
+        font-size: 1.1rem;
+    }
+    .hero-content h1 {
+        font-size: 1.7rem;
+    }
+    .slogan {
+        font-size: 0.78rem;
+    }
+    .code-body {
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+    .hero-section {
+        padding: 110px 0 50px;
+    }
+    .avatar-box {
+        height: 200px;
+    }
+    .sobre-info {
+        padding: 1rem;
+    }
+    .sobre-info h3 {
+        font-size: 0.95rem;
+    }
+    .info-table th,
+    .info-table td {
+        padding: 0.35rem 0.45rem;
+        font-size: 0.73rem;
+    }
+    .about-bio-card {
+        padding: 1rem;
+    }
+    .about-bio-card p {
+        font-size: 0.88rem;
+    }
+    .stat-item {
+        flex: 0 0 50%;
+        padding: 0.5rem;
+    }
+    .stat-numero {
+        font-size: 1.5rem;
+    }
+    .stat-label {
+        font-size: 0.55rem;
+        letter-spacing: 0.04rem;
+    }
+    #back-to-top {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+        bottom: 12px;
+        right: 12px;
+    }
+    .sobre-stats {
+        padding: 1rem 0;
+    }
+    .stat-label {
+        font-size: 0.6rem;
+        letter-spacing: 0.06rem;
+    }
+    .skills-marquee-col {
+    grid-template-columns: 1fr;
+    width: 100%;
+    }
+    .marquee-wrap {
+    height: 120px;
+    width: 100%;
+    }
+    .skill-pill {
+        font-size: 0.72rem;
+        padding: 0.35rem 0.8rem;
+        text-align: center;
+    }
+    
+    .skills-table-col {
+    width: 100%;
+    padding: 0.8rem;
+    }
+    .skills-table th,
+    .skills-table td {
+        padding: 0.45rem 0.4rem;
+        font-size: 0.72rem;
+    }
+    .skills-layout {
+    gap: 1.2rem;
+    }
+    .nivel-badge,
+    .tipo-badge {
+        font-size: 0.6rem;
+        padding: 0.15rem 0.4rem;
+    }
+    .project-header h3 {
+        font-size: 0.88rem;
+    }
+    .project-body {
+        padding: 14px;
+    }
+    .project-body p {
+        font-size: 0.8rem;
+    }
+    .project-techs li {
+        font-size: 0.62rem;
+    }
+    .cert-body {
+        padding: 14px 16px;
+    }
+    .cert-titulo {
+        font-size: 0.8rem;
+    }
+    .section-title {
+        font-size: 1.7rem;
+        margin-bottom: 36px;
+    }
+    .contact-card-label {
+        font-size: 0.62rem;
+    }
+    .contact-card-value {
+        font-size: 0.68rem;
+    }
+    .contact-card-icon {
+        width: 26px;
+        height: 26px;
+    }
+    .contact-box {
+        padding: 16px;
+    }
+    .input-group input,
+    .input-group textarea {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .contact-form-title {
+        font-size: 1rem;
+    }
+    .footer-left p {
+        font-size: 0.78rem;
+    }
+    .footer-tagline {
+        font-size: 0.68rem;
+    }
+    .footer-links .footer-icon {
+        width: 24px;
+        height: 24px;
+    }
+    .footer-links {
+        gap: 10px;
     }
 }
