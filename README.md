@@ -13,7 +13,7 @@
 | :--- | :--- | :--- |
 | **Guilherme Alves** | Estruturação e Engenharia Semântica HTML5 | [https://github.com/Guilherme-sta](https://github.com/Guilherme-sta) |
 | **Marcos Gabriel** | Arquitetura CSS e Design Responsivo | [https://github.com/marcosgabrielms](https://github.com/marcosgabrielms) |
-| **Nicolas Damasceno** | Versionamento, Organização Git e Revisão Final | [https://github.com/NicolasDamasceno](https://github.com/NicolasDamasceno) |
+| **Nicolas Damasceno** | Supervisão de versionamento, Organização Git e Revisão Final | [https://github.com/NicolasDamasceno](https://github.com/NicolasDamasceno) |
 
 ---
 
@@ -25,7 +25,7 @@
 
 ## 📋 Descrição do Projeto
 
-Portfólio pessoal coletivo e responsivo simulando a página profissional de um desenvolvedor FullStack. O site foi desenvolvido pelo grupo em destaque do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas coletivas organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
+Portfólio pessoal coletivo e responsivo simulando a página profissional de um desenvolvedor FullStack. O site foi desenvolvido pelo grupo em destaque do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas individuais organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
 
 Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer framework ou biblioteca externa como Bootstrap ou Tailwind.
 
@@ -40,20 +40,24 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 │   ├── gifs/
 │   │   └── spiderman.gif
 │   ├── icons/
-│   │   ├── c-.png
-│   │   ├── communication.png
+│   │   ├── cplus.png
 │   │   ├── css.png
 │   │   ├── database.png
 │   │   ├── django.png
+│   │   ├── git.png
 │   │   ├── github.png
+│   │   ├── gmail.png
+│   │   ├── django.png
 │   │   ├── html.png
+│   │   ├── instagram.png
 │   │   ├── js.png
 │   │   ├── linkedin.png
 │   │   ├── linux.png
 │   │   ├── python.png
+│   │   ├── react.png
 │   │   └── typescript.png
+│   │   └── whatsapp.png
 │   └── perfil.jpg
-├── index.html
 └── README.md
 ```
 ---
@@ -62,9 +66,8 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 
 - [x] Header fixo com efeito de transparência e navegação por âncoras
 - [x] Seção Hero com slogan marcante e animação fluida de transição
-- [x] Seção Equipe apresentando os 3 integrantes em cards modernos
-- [x] Seção Sobre contendo a missão acadêmica institucional do grupo de ADS
-- [x] Seção de habilidades coletivas dispostas em grid de cards perfeitamente quadrados
+- [x] Seção Sobre contendo a apresentação do desenvolvedor
+- [x] Seção de habilidades dispostas em grid de cards perfeitamente quadrados
 - [x] Seção de projetos estruturada em blocos modulares individuais por integrante
 - [x] Formulário de contato estilizado com efeitos dinâmicos de *focus*
 - [x] Footer completo com canais de comunicação corporativos
