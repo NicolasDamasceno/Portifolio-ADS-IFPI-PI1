@@ -926,6 +926,130 @@ img {
     color: #94a3b8;
 }
 
+.exp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+.exp-card {
+    background-color: #0f172a;
+    border-radius: 10px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    overflow: hidden;
+    display: flex;                          /* faixa + corpo lado a lado */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+ 
+.exp-card:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+}
+ 
+/* Faixa vertical colorida (diferencial visual em relação ao cert-card) */
+.exp-faixa {
+    width: 4px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #38bdf8, #0284c7);
+}
+ 
+.exp-body {
+    padding: 20px 22px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+ 
+/* Linha superior: empresa à esquerda, período à direita */
+.exp-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+ 
+.exp-empresa {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #38bdf8;
+}
+ 
+.exp-periodo {
+    font-size: 0.72rem;
+    color: #64748b;
+    white-space: nowrap;
+}
+ 
+.exp-cargo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f8fafc;
+    line-height: 1.4;
+}
+ 
+.exp-desc {
+    font-size: 0.88rem;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+ 
+/* Linha inferior: tags à esquerda, badge de status à direita */
+.exp-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+}
+ 
+.exp-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.exp-tags li {
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 2px 9px;
+    border-radius: 20px;
+    background-color: #1e293b;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    color: #94a3b8;
+}
+ 
+/* Badge de status */
+.exp-status {
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+ 
+.status-atual {
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+}
+ 
+.status-concluido {
+    background: rgba(100, 116, 139, 0.15);
+    border: 1px solid rgba(100, 116, 139, 0.25);
+    color: #64748b;
+}
+
+
 .contact-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1462,6 +1586,15 @@ footer {
         padding: 14px 16px;
     }
     .cert-titulo {
+        font-size: 0.82rem;
+    }
+    .exp-body {
+        padding: 14px 16px;
+    }
+    .exp-cargo {
+        font-size: 0.9rem;
+    }
+    .exp-desc {
         font-size: 0.82rem;
     }
     .contact-cards {
