@@ -40,6 +40,11 @@ body {
     background-color: rgba(30, 41, 59, 0.6);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .responsive-img {
     width: 100%;
     height: auto;
