@@ -91,7 +91,7 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 ## 👨‍💻 Divisão de Tarefas
 
 - **Guilherme Alves e Nicolas Damasceno:** Concepção da marcação semântica HTML5 inicial, tabelas lógicas, links de ancoragem e formulários de contato.
-- **Marcos Gabriel:** Desenvolvimento de toda a identidade visual CSS3, animações, efeitos de brilho no hover (*glow*), grids quadrados e regras de responsividade mobile.
+- **Marcos Gabriel e Guilherme Alves:** Desenvolvimento de toda a identidade visual CSS3, animações, efeitos de brilho no hover (*glow*), grids quadrados e regras de responsividade mobile.
 - **Guilherme Alves, Marcos Gabriel e Nicolas Damasceno:** Governança do repositório Git, commits de controle, preenchimento documental do README.md e auditoria contra frameworks de terceiros.
 
 ---
@@ -101,7 +101,7 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 | Recurso | Link |
 | :--- | :--- |
 | 🌐 GitHub Pages | *https://nicolasdamasceno.github.io/Portifolio-ADS-IFPI-PI1/* |
-| 🎬 Vídeo de Apresentação | *[a definir]* |
+| 🎬 Vídeo de Apresentação | *https://drive.google.com/file/d/1RywTr-7Bom3dm7PdKxGRd31HnBKQkwIL/view?usp=drive_link* |
 
 ---
 
