@@ -2,7 +2,7 @@
 
 > Trabalho desenvolvido para a disciplina **Programação para a Internet I**  
 > Instituto Federal de Educação, Ciência e Tecnologia do Piauí — IFPI  
-> Professor: Ely Miranda
+> Professor: Ely Miranda  
 > Grupo: Guilherme Alves, Marcos Gabriel e Nicolas Damasceno
 
 ---
@@ -19,13 +19,13 @@
 
 ## 🖥️ Tema Escolhido
 
-> **DESENVOLVEDORES FRONT-END** > Identidade visual *dark mode* tecnológica e minimalista, utilizando os conceitos do PixelForge Studio.
+> **DESENVOLVEDOR FULLSTACK**> Identidade visual dark mode imersiva e minimalista, inspirada em ambientes de desenvolvimento (IDEs) e terminais. Combina elementos tecnológicos, como blocos de código sintáticos e tipografia monoespaçada, com alto contraste em tons de azul neon.
 
 ---
 
 ## 📋 Descrição do Projeto
 
-Portfólio pessoal coletivo e responsivo simulando a página profissional de uma equipe de desenvolvedores front-end. O site foi desenvolvido por alunos do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas coletivas organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
+Portfólio pessoal coletivo e responsivo simulando a página profissional de um desenvolvedor FullStack. O site foi desenvolvido pelo grupo em destaque do **3º período do curso superior de Análise e Desenvolvimento de Sistemas do IFPI** e apresenta informações profissionais, habilidades técnicas coletivas organizadas em blocos, projetos individuais configurados em contêineres expansíveis e canais diretos de contato.
 
 Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer framework ou biblioteca externa como Bootstrap ou Tailwind.
 
@@ -34,11 +34,26 @@ Desenvolvido estritamente com **HTML5** e **CSS3** puros, sem o uso de qualquer 
 ## 📁 Estrutura de Arquivos
 ```portfolio/
 │
-├── index.html
 ├── css/
 │   └── style.css
 ├── img/
-│   
+│   ├── gifs/
+│   │   └── spiderman.gif
+│   ├── icons/
+│   │   ├── c-.png
+│   │   ├── communication.png
+│   │   ├── css.png
+│   │   ├── database.png
+│   │   ├── django.png
+│   │   ├── github.png
+│   │   ├── html.png
+│   │   ├── js.png
+│   │   ├── linkedin.png
+│   │   ├── linux.png
+│   │   ├── python.png
+│   │   └── typescript.png
+│   └── perfil.jpg
+├── index.html
 └── README.md
 ```
 ---
